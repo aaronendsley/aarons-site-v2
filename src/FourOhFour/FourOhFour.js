@@ -1,10 +1,10 @@
-import React from 'react';
-import './FourOhFour.css';
+import React from "react";
+import "./FourOhFour.css";
 
 const FourOhFour = () => {
   return (
     <div className="FourOhFour topSpacer">
-      <h1>404 you typed in the wrong thing oops</h1>
+      <h1>MMMHMMM you had to manually type the URL didnt you</h1>
     </div>
   );
 };
