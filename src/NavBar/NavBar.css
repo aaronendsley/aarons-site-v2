@@ -31,14 +31,17 @@
   display: flex;
   list-style: none;
   justify-content: flex-start;
+  width: 30%;
+  border: solid black 2px;
 }
 
-.navBarContainer header nav a {
+.navBarContainer header nav li {
   flex: 1;
-
-  justify-content: flex-start;
+  align-self: baseline;
+}
+.navBarContainer header nav a {
   text-align: center;
-
   color: black;
+  border: solid black 2px;
   text-decoration: none;
 }
