@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./NavBar.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 const NavBar = () => {
   return (
@@ -12,7 +12,7 @@ const NavBar = () => {
         <nav>
           <Link to="/">
             <button type="button">
-              {"</Back>"}
+              {'</Back>'}
             </button>
           </Link>
         </nav>

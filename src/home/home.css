@@ -1,3 +1,24 @@
 .homeBody {
-  border: 2px solid #000;
+  width: 100%;
+  height: 100%;
+}
+
+.homeBody button {
+  border: none;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 1.3em;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px;
+  position: relative;
+}
+
+.buttonGit {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  border: 3px solid #0102ab;
+  width: 100%;
+  height: 75px;
 }
