@@ -7,7 +7,7 @@ const Home = () => {
     <div className="homeBody topSpacer">
       <h1>This is the beginning</h1>
       <Link to="/github">
-        <button type="button">go here</button>
+        <button type="button">{`</GitRepos>`}</button>
       </Link>
     </div>
   );

@@ -10,14 +10,11 @@ const NavBar = () => {
           <h1>Aaron Endsley</h1>
         </div>
         <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/github">GitHub</Link>
-            </li>
-          </ul>
+          <Link to="/">
+            <button type="button">
+              {"</Back>"}
+            </button>
+          </Link>
         </nav>
       </header>
     </div>
