@@ -1,0 +1,36 @@
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.Title .innerTitleDiv {
+  width: 80%;
+  align-self: center;
+}
+.Title h1 {
+  flex: 1;
+  align-self: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (min-width: 523px) {
+  .Title .innerTitleDiv {
+    width: 65%;
+  }
+  .Title h1 {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .Title .innerTitleDiv {
+    width: 658px;
+  }
+  .Title h1 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+}
