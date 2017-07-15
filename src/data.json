@@ -1,0 +1,27 @@
+{
+  "About": {
+    "paragraphs": [
+      " Hello ! I am a Front End Web developer from Lawton Oklahoma! I love HTML, CSS , JavaScript and Typescript, and  React , and am looking forward to getting into Node. I am a Christian, husband, and a dad. I'm a huge Geek so I am into things like Doctor Who, Star Trek , Big Bang Theory, World of Warcraft, StarCraft...just about any and every game made by Blizzard Entertainment",
+      " I love programming. I learned how to build websites at the age of 12 and it has always been something that I have loved doing. I do NOT have a computer science degree. However, I do NOT see this as a disadvantage. My degree in Multimedia Design is what enabled my interest again in web development as an adult. It has also given me the opportunity to explore graphic design as well as web development and other areas. Because of this, I feel that I bring a unique perspective to most projects. My passion however has always been programming.",
+      "I love learning and I love to test my skills that I have learned from various resourses, such as: Front End Masters, Wes Bos, Ultimate Angular, and Free Code Camp, Links to to the places listed above will be located in the more section ",
+      "Thank you for checking out my page, and please check out all the projects from my Github!!"
+    ]
+  },
+
+  "SocialMediaLinks": {
+    "social": [
+      {
+        "siteName": "Linked-In",
+        "siteLink": "https://www.linkedin.com/in/aaron-endsley-6786aa8a/"
+      },
+      {
+        "siteName": "Twitter",
+        "siteLink": "https://twitter.com/aaronendsley"
+      },
+      {
+        "siteName": "Github",
+        "siteLink": "https://github.com/veritasx"
+      }
+    ]
+  }
+}
