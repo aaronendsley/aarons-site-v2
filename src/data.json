@@ -1,4 +1,10 @@
 {
+  "title": [
+    { "title": "let person = {", "key": "t1" },
+    { "title": "'Name': 'Aaron Endsley'},", "key": "t2" },
+    { "title": "'Description' : 'Front End Web Dev'", "key": "t3" },
+    { "title": "}", "key": "t4" }
+  ],
   "About": {
     "paragraphs": [
       " Hello ! I am a Front End Web developer from Lawton Oklahoma! I love HTML, CSS , JavaScript and Typescript, and  React , and am looking forward to getting into Node. I am a Christian, husband, and a dad. I'm a huge Geek so I am into things like Doctor Who, Star Trek , Big Bang Theory, World of Warcraft, StarCraft...just about any and every game made by Blizzard Entertainment",

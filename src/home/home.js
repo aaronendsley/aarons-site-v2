@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Title from './Title/Title';
-import './home.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import Title from "./Title/Title";
+import "./home.css";
 
-const Home = () => {
+const Home = props => {
   return (
     <div className="homeBody">
-      <Title />
+      <Title titleText={props.titleText} />
       <div className="buttonGit">
         <Link to="/github">
           <button type="button">I do things</button>

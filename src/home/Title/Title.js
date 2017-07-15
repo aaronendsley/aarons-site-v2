@@ -1,14 +1,14 @@
-import React from 'react';
-import './Title.css';
+import React from "react";
+import "./Title.css";
 
-const Title = () => {
-  const title = ['let person = {', '"Name": "Aaron Endsley",', '"Description" : "Front End Web Dev"', '}'];
+const Title = props => {
+  const titleText = props.titleText;
   return (
     <div className="Title">
       <div className="innerTitleDiv">
-        {title.map(item =>
-          <h1>
-            {item}
+        {titleText.map(item =>
+          <h1 key={item.key}>
+            {item.title}
           </h1>
         )}
       </div>
