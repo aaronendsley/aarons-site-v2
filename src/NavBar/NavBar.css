@@ -6,7 +6,8 @@
   top: 0;
   left: 0;
   border: 2px solid #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../images/portBanner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)),
+    url('../images/portBanner.jpg');
 }
 
 .navBarContainer header {
@@ -18,8 +19,8 @@
 .navBarContainer h1 {
   flex: 1;
   align-self: flex-start;
-  margin-left: 50px;
-  margin-top: 5px;
+  padding-top: 10px;
+  font-size: 1em;
 }
 
 .navBarContainer header .brand {
@@ -67,4 +68,31 @@
   width: 100%;
   border-radius: 50%;
   border: solid 6px #000;
+}
+
+.menuButton {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.10);
+  border: solid 3px #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.8em;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .navBarContainer h1 {
+    font-size: 1.5em;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .navBarContainer h1 {
+    font-size: 2em;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
 }
