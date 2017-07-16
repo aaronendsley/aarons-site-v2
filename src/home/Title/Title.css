@@ -1,8 +1,13 @@
 .Title {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../../images/portBanner.jpg');
 }
 .Title .innerTitleDiv {
   width: 80%;
@@ -14,6 +19,24 @@
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
+  color: #fff;
+}
+.imgFloat {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 29%;
+}
+.imgContainer {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+.imgContainer img {
+  width: 100%;
+  border-radius: 50%;
+  border: solid 6px #000;
 }
 
 @media only screen and (min-width: 523px) {
@@ -27,10 +50,10 @@
 
 @media only screen and (min-width: 800px) {
   .Title .innerTitleDiv {
-    width: 658px;
+    width: 700px;
   }
   .Title h1 {
     font-size: 2em;
-    line-height: 2em;
+    line-height: 1.5em;
   }
 }

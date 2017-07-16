@@ -1,5 +1,6 @@
-import React from "react";
-import "./Title.css";
+import React from 'react';
+import './Title.css';
+import profilePic from './../../images/face.jpg';
 
 const Title = props => {
   const titleText = props.titleText;
@@ -11,6 +12,11 @@ const Title = props => {
             {item.title}
           </h1>
         )}
+      </div>
+      <div className="imgFloat">
+        <div className="imgContainer">
+          <img src={profilePic} alt={`Aaron Endsley`} />
+        </div>
       </div>
     </div>
   );

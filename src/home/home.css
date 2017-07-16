@@ -1,8 +1,19 @@
 .homeBody {
   width: 100%;
   height: 100%;
+  display: block;
 }
-
+.content {
+  margin-top: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  align-self: center;
+  line-height: 2em;
+  font-size: 1em;
+  font-family: 'droid sans mono', sans-serif;
+  display: block;
+}
 .buttonGit {
   padding: 0;
   width: 100%;
