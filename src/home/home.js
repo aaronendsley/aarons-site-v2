@@ -17,7 +17,7 @@ const Home = props => {
       </div>
       <div className="buttonGit">
         <Link to="/github">
-          <button type="button">I do things</button>
+          <button type="button">Check out some of my projects</button>
         </Link>
       </div>
     </div>

@@ -24,12 +24,16 @@
 .buttonGit button {
   border: none;
   flex: 1;
-  background-color: darkblue;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 1.3em;
-  border-radius: 5px;
+  border-radius: 20px;
+  border: solid 6px #000;
   font-weight: bold;
+  font-family: 'Roboto Mono';
+  letter-spacing: 3px;
   cursor: pointer;
   padding: 20px;
   position: relative;
+  margin-top: 20px;
 }
