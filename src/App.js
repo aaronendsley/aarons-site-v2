@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './home/home';
-import GitHub from './GitHub/GitHub';
+import Content from './Content/Content';
 import FourOhFour from './FourOhFour/FourOhFour';
 import data from './data.json';
 import './App.css';
@@ -29,7 +29,7 @@ class App extends Component {
               path="/"
               component={props => <Home titleText={this.state.title} aboutSection={this.state.about} />}
             />
-            <Route path="/github" component={GitHub} />
+            <Route path="/more" component={Content} />
             <Route component={FourOhFour} />
           </Switch>
         </div>
