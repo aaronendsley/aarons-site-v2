@@ -16,6 +16,7 @@
   color: #fff;
   font-family: 'Roboto Mono', monospace;
 }
+
 .navBarContainer h1 {
   flex: 1;
   align-self: flex-start;
@@ -73,15 +74,25 @@
 .menuButton {
   color: #fff;
   background: rgba(0, 0, 0, 0.10);
-  border: solid 3px #fff;
+  border: none;
   width: 50px;
   height: 50px;
   border-radius: 10px;
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin-right: 25px;
   margin-top: 10px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.navClose {
+  display: none;
 }
 
+.navOpen {
+  display: block;
+}
 @media only screen and (min-width: 600px) {
   .navBarContainer h1 {
     font-size: 1.5em;
