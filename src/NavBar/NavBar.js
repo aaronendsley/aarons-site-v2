@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import navProfilePic from "../images/face.jpg";
-import "./NavBar.css";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import navProfilePic from '../images/face.jpg';
+import './NavBar.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -9,42 +9,77 @@ class NavBar extends Component {
 
     this.state = {
       navState: false,
-      navClass: "navClose"
+      navClass: 'navClose'
     };
     this.navToggle = this.navToggle.bind(this);
+    this.navIconClosed = this.navIconClosed.bind(this);
+    this.navIconOpen = this.navIconOpen.bind(this);
+    this.navIcon = this.navIconClosed();
+    this.Links = props.pageLinks;
+    console.log(this.Links);
   }
+
   navToggle() {
-    console.log("click");
     if (this.state.navState) {
+      this.navIcon = this.navIconClosed();
       this.setState(() => ({
-        navClass: "navClose",
+        navClass: 'navClose',
         navState: false
       }));
     } else {
+      this.navIcon = this.navIconOpen();
       this.setState(() => ({
-        navClass: "navOpen",
+        navClass: 'navOpen',
         navState: true
       }));
     }
   }
+  navIconClosed() {
+    return (
+      <button className="menuButton" type="button" onClick={this.navToggle}>
+        &#9776;
+      </button>
+    );
+  }
+  navIconOpen() {
+    return (
+      <button className="menuButton" type="button" onClick={this.navToggle}>
+        X
+      </button>
+    );
+  }
   render() {
     return (
-      <div className="navBarContainer">
-        <header>
-          <div className="brand">
-            {" "}<h1>{"<Aaron Endsley/>"}</h1>
-            <div className="imageFloat2">
-              <div className="imgContainer2">
-                <img src={navProfilePic} alt={`Aaron Endsley`} />
+      <div>
+        <div className="navBarContainer">
+          <div>
+            <header>
+              <div className="brand">
+                <h1>
+                  {'<Aaron Endsley/>'}
+                </h1>
+                <div className="imageFloat2">
+                  <div className="imgContainer2">
+                    <Link to="/">
+                      <img src={navProfilePic} alt={`Aaron Endsley`} />
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
+              {this.navIcon}
+            </header>
           </div>
-          <button className="menuButton" type="button" onClick={this.navToggle}>
-            &#9776;
-          </button>
-        </header>
+        </div>
         <div className={this.state.navClass}>
-          <p>ON</p>
+          <div className="navContent">
+            {this.Links.map(items =>
+              <li key={items.key} onClick={this.navToggle}>
+                <h3>
+                  {items.linkName}
+                </h3>
+              </li>
+            )}
+          </div>
         </div>
       </div>
     );

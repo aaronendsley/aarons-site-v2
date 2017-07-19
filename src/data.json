@@ -1,4 +1,19 @@
 {
+  "links": [
+    { "linkName": "Home", "linkRoute": "/", "key": "l1" },
+    { "linkName": "Dev Podcast List", "linkRoute": "/content/fav-podcasts", "key": "l2" },
+    { "linkName": "Learning Resources", "linkRoute": "/content/learning-resources", "key": "l3" },
+    {
+      "linkName": "FAQ",
+      "linkRoute": "/content/faq",
+      "key": "l4"
+    },
+    {
+      "linkName": "Projects",
+      "linkRoute": "/content/projects",
+      "key": "l5"
+    }
+  ],
   "title": [
     { "title": "let person = {", "key": "t1" },
     { "title": "'Name': 'Aaron Endsley'},", "key": "t2" },

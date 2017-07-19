@@ -13,7 +13,8 @@ class App extends Component {
     this.state = {
       title: data.title,
       about: data.About,
-      social: data.socialMediaLinks
+      social: data.socialMediaLinks,
+      links: data.links
     };
 
     console.log();
@@ -26,10 +27,10 @@ class App extends Component {
           <Switch>
             <Route
               exact
-              path="/"
+              path={this.state.links[0].linkRoute}
               component={props => <Home titleText={this.state.title} aboutSection={this.state.about} />}
             />
-            <Route path="/more" component={Content} />
+            <Route path="/content" component={props => <Content pageLinks={this.state.links} />} />
             <Route component={FourOhFour} />
           </Switch>
         </div>

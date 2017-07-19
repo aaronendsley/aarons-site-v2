@@ -16,7 +16,7 @@ const Home = props => {
         )}
       </div>
       <div className="buttonGit">
-        <Link to="/more">
+        <Link to="/content">
           <button type="button">Resources, Projects and More</button>
         </Link>
       </div>

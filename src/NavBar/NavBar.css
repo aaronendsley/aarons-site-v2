@@ -3,11 +3,15 @@
   width: 100%;
   height: 70px;
   position: fixed;
+  z-index: 20;
   top: 0;
   left: 0;
   border: 2px solid #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)),
-    url('../images/portBanner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../images/portBanner.jpg');
+}
+.navBarContainer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .navBarContainer header {
@@ -92,6 +96,24 @@
 
 .navOpen {
   display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+}
+.navContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 75px;
+}
+.navContent li {
+  list-style: none;
+  padding-top: 60px;
+  align-self: center;
 }
 @media only screen and (min-width: 600px) {
   .navBarContainer h1 {
@@ -105,5 +127,8 @@
     font-size: 2em;
     padding-top: 0px;
     padding-left: 30px;
+  }
+  .navOpen {
+    width: 400px;
   }
 }
