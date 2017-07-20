@@ -112,7 +112,7 @@
 }
 .navContent li {
   list-style: none;
-  padding-top: 60px;
+  padding-top: 20px;
   align-self: center;
 }
 @media only screen and (min-width: 600px) {
@@ -130,5 +130,8 @@
   }
   .navOpen {
     width: 400px;
+  }
+  .navContent li {
+    padding-top: 60px;
   }
 }
