@@ -30,7 +30,7 @@ class App extends Component {
               path={this.state.links[0].linkRoute}
               component={props => <Home titleText={this.state.title} aboutSection={this.state.about} />}
             />
-            <Route path="/content" component={props => <Content pageLinks={this.state.links} />} />
+            <Route exact path="/content" component={props => <Content pageLinks={this.state.links} />} />
             <Route component={FourOhFour} />
           </Switch>
         </div>

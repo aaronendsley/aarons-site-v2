@@ -16,7 +16,6 @@ class NavBar extends Component {
     this.navIconOpen = this.navIconOpen.bind(this);
     this.navIcon = this.navIconClosed();
     this.Links = props.pageLinks;
-    console.log(this.Links);
   }
 
   navToggle() {
