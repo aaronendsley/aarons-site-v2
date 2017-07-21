@@ -17,8 +17,10 @@ class Content extends Component {
         <NavBar pageLinks={this.props.pageLinks} />
         <div className="topSpacer">
           <Switch>
-            <Route path="/content" component={Main} />
-            <Route path="/github" component={Github} />
+            <Route exact path="/content" component={Main} />
+            <Route path="/content/github" component={Github} />
+            <Route path="/content/resources" component={Resources} />
+            <Route path="/content/podcasts" component={Podcasts} />
           </Switch>
         </div>
       </div>
