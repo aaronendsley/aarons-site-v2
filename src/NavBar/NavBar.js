@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import navProfilePic from "../images/face.jpg";
-import "./NavBar.css";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import navProfilePic from '../images/face.jpg';
+import './NavBar.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class NavBar extends Component {
 
     this.state = {
       navState: false,
-      navClass: "navClose"
+      navClass: 'navClose'
     };
     this.navToggle = this.navToggle.bind(this);
     this.navIconClosed = this.navIconClosed.bind(this);
@@ -23,13 +23,13 @@ class NavBar extends Component {
     if (this.state.navState) {
       this.navIcon = this.navIconClosed();
       this.setState(() => ({
-        navClass: "navClose",
+        navClass: 'navClose',
         navState: false
       }));
     } else {
       this.navIcon = this.navIconOpen();
       this.setState(() => ({
-        navClass: "navOpen",
+        navClass: 'navOpen',
         navState: true
       }));
     }
@@ -57,11 +57,11 @@ class NavBar extends Component {
             <header>
               <div className="brand">
                 <h1>
-                  {"<Aaron Endsley/>"}
+                  {'<Aaron Endsley/>'}
                 </h1>
                 <div className="imageFloat2">
                   <div className="imgContainer2">
-                    <Link to="/">
+                    <Link to="/" onClick={this.navScrollTop}>
                       <img src={navProfilePic} alt={`Aaron Endsley`} />
                     </Link>
                   </div>

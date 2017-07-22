@@ -1,18 +1,18 @@
 {
   "links": [
     { "linkName": "Home", "linkRoute": "/", "key": "l1" },
-    { "linkName": "Dev Podcast List", "linkRoute": "/content/podcasts", "key": "l2" },
-    { "linkName": "Learning Resources", "linkRoute": "/content/resources", "key": "l3" },
     {
       "linkName": "FAQ",
       "linkRoute": "/content",
-      "key": "l4"
+      "key": "l2"
     },
     {
       "linkName": "Projects",
       "linkRoute": "/content/projects",
-      "key": "l5"
-    }
+      "key": "l3"
+    },
+    { "linkName": "Dev Podcast List", "linkRoute": "/content/podcasts", "key": "l4" },
+    { "linkName": "Learning Resources", "linkRoute": "/content/resources", "key": "l5" }
   ],
   "title": [
     { "title": "let person = {", "key": "t1" },
@@ -37,6 +37,26 @@
       {
         "paragraph": "Thank you for checking out my page, and please check out all the projects from my Github!!",
         "key": "p4"
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Tabs vs Spaces....",
+    "paragraphs": [
+      {
+        "subtitle": "What will You find here..",
+        "paragraph": "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
+        "key": "faq1"
+      },
+      {
+        "subtitle": "Seriously Though Tabs Vs Spaces",
+        "paragraph": "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
+        "key": "faq2"
+      },
+      {
+        "subtitle": "Seriously Though Tabs Vs Spaces",
+        "paragraph": "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
+        "key": "faq2"
       }
     ]
   },
