@@ -7,7 +7,8 @@
   top: 0;
   left: 0;
   border: 2px solid #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../images/portBanner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)),
+    url('../images/portBanner.jpg');
 }
 .navBarContainer a {
   color: #fff;
@@ -114,6 +115,10 @@
   list-style: none;
   padding-top: 20px;
   align-self: center;
+}
+.navContent li a {
+  text-decoration: none;
+  color: #fff;
 }
 @media only screen and (min-width: 600px) {
   .navBarContainer h1 {
