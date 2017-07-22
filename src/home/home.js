@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Title from './Title/Title';
-import './home.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import Title from "./Title/Title";
+import "./home.css";
 
 const Home = props => {
   const about = props.aboutSection.paragraphs;
@@ -16,7 +16,7 @@ const Home = props => {
         )}
       </div>
       <div className="buttonGit">
-        <Link to="/content">
+        <Link to="/content" onClick={props.scrollTop}>
           <button type="button">Resources, Projects and More</button>
         </Link>
       </div>

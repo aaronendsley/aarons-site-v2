@@ -15,7 +15,7 @@ class NavBar extends Component {
     this.navIconClosed = this.navIconClosed.bind(this);
     this.navIconOpen = this.navIconOpen.bind(this);
     this.navIcon = this.navIconClosed();
-    this.navScrollTop = this.navScrollTop.bind(this);
+    this.navScrollTop = props.scrollTop;
     this.Links = props.pageLinks;
   }
 
@@ -48,9 +48,7 @@ class NavBar extends Component {
       </button>
     );
   }
-  navScrollTop() {
-    window.scroll(0, 0);
-  }
+
   render() {
     return (
       <div>
