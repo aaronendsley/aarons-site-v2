@@ -15,6 +15,7 @@ class NavBar extends Component {
     this.navIconClosed = this.navIconClosed.bind(this);
     this.navIconOpen = this.navIconOpen.bind(this);
     this.navIcon = this.navIconClosed();
+    this.navScrollTop = this.navScrollTop.bind(this);
     this.Links = props.pageLinks;
   }
 
@@ -47,6 +48,9 @@ class NavBar extends Component {
       </button>
     );
   }
+  navScrollTop() {
+    window.scroll(0, 0);
+  }
   render() {
     return (
       <div>
@@ -73,7 +77,7 @@ class NavBar extends Component {
           <div className="navContent">
             {this.Links.map(items =>
               <li key={items.key} onClick={this.navToggle}>
-                <Link to={items.linkRoute}>
+                <Link to={items.linkRoute} onClick={this.navScrollTop}>
                   <h3>
                     {items.linkName}
                   </h3>
