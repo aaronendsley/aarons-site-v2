@@ -18,7 +18,7 @@ class Content extends Component {
         <div className="topSpacer">
           <Switch>
             <Route exact path="/content" component={Main} />
-            <Route path="/content/github" component={Github} />
+            <Route path="/content/projects" component={Github} />
             <Route path="/content/resources" component={Resources} />
             <Route path="/content/podcasts" component={Podcasts} />
           </Switch>
