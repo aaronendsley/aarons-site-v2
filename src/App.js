@@ -15,12 +15,11 @@ class App extends Component {
       about: data.About,
       social: data.socialMediaLinks,
       links: data.links,
+      faq: data.Faq,
       scrollTop: () => {
         window.scroll(0, 0);
       }
     };
-
-    console.log();
   }
 
   render() {
@@ -44,6 +43,7 @@ class App extends Component {
                 <Content
                   pageLinks={this.state.links}
                   scrollTop={this.state.scrollTop}
+                  faq={this.state.faq}
                 />}
             />
             <Route component={FourOhFour} />

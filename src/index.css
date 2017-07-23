@@ -7,3 +7,34 @@ body {
 .topSpacer {
   margin: 100px;
 }
+.pageContent {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+p {
+  font-family: 'droid sans mono', sans-serif;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+.section {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pageContent {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

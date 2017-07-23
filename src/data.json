@@ -11,13 +11,24 @@
       "linkRoute": "/content/projects",
       "key": "l3"
     },
-    { "linkName": "Dev Podcast List", "linkRoute": "/content/podcasts", "key": "l4" },
-    { "linkName": "Learning Resources", "linkRoute": "/content/resources", "key": "l5" }
+    {
+      "linkName": "Dev Podcast List",
+      "linkRoute": "/content/podcasts",
+      "key": "l4"
+    },
+    {
+      "linkName": "Learning Resources",
+      "linkRoute": "/content/resources",
+      "key": "l5"
+    }
   ],
   "title": [
     { "title": "let person = {", "key": "t1" },
     { "title": "'Name': 'Aaron Endsley'},", "key": "t2" },
-    { "title": "'Description' : ['Follower of Christ','Husband','Dad', 'Web Dev']", "key": "t3" },
+    {
+      "title": "'Description' : ['Follower of Christ','Husband','Dad', 'Web Dev']",
+      "key": "t3"
+    },
     { "title": "}", "key": "t4" }
   ],
   "About": {
@@ -45,20 +56,46 @@
     "paragraphs": [
       {
         "subtitle": "What will You find here..",
-        "paragraph": "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
+        "sections": [
+          {
+            "paragraph": "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
+            "key": "faq11"
+          }
+        ],
         "key": "faq1"
       },
       {
         "subtitle": "Seriously Though Tabs Vs Spaces",
-        "paragraph": "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
+        "sections": [
+          {
+            "paragraph": "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
+            "key": "faq21"
+          }
+        ],
         "key": "faq2"
       },
       {
         "subtitle": "What Editor do you use?",
-        "paragraph": "Ive literally tried just about every IDE/text editor out there. I first started with notepad(unfortunatley im not joking), then moved to Dreamweaver, after a while i began to realize that dreamweaver didnt have that in depth code experience that i was looking for. So..I started using sublime, and for about a year I was happy. When I heard about this really cool editor from a friend, the editor was named atom and i was interested bacause it was using front end web technologies in under the hood. I also tried brackets but it did not have the same appeal to me as atom. ",
-        "paragraph2": "Then I went through this Phase where i wanted all the bells and whistles, So i bought and paid for Web Storm which in my opinion is still a very awesome IDE but...I wanted something that didn't take away from my coding experience, I also wanted something that was built on javascript technologies. I had tried atom but I wanted something like atom but that also had a bit more of an IDE feel but still a text editor, So I decided to try the one editor i hadnt tried and I Loved it!",
-        "paragraph3": "I Tried VSCode, and I found my favorite editor! I Love the user interface, the simplicity of it and the ease of use of power user features. It has a very extensive library of helpful add ons ",
-        "key": "faq2"
+        "sections": [
+          {
+            "paragraph": "Ive literally tried just about every IDE/text editor out there. I first started with notepad(unfortunatley im not joking), then moved to Dreamweaver, after a while i began to realize that dreamweaver didnt have that in depth code experience that i was looking for. So..I started using sublime, and for about a year I was happy. When I heard about this really cool editor from a friend, the editor was named atom and i was interested bacause it was using front end web technologies in under the hood. I also tried brackets but it did not have the same appeal to me as atom. ",
+            "key": "faq31"
+          },
+          {
+            "paragraph": "Then I went through this Phase where i wanted all the bells and whistles, So i bought and paid for Web Storm which in my opinion is still a very awesome IDE but...I wanted something that didn't take away from my coding experience, I also wanted something that was built on javascript technologies. I had tried atom but I wanted something like atom but that also had a bit more of an IDE feel but still a text editor, So I decided to try the one editor i hadnt tried and I Loved it!",
+            "key": "faq32"
+          },
+          {
+            "paragraph": "I Tried VSCode, and I found my favorite editor! I Love the user interface, the simplicity of it and the ease of use of power user features. It has a very extensive library of helpful add ons, which makes the editor very much conigurable. I like the Javascript and typescript integrations with VSCode. ",
+            "key": "faq33"
+          },
+          {
+            "paragraph": "I use the following plugins, Auto Close Tag, Beautify, prettier, Bracket Pair Colorizer, EditorConfig for VS Code, ESLint, JSX, Open, TSLint.   My text theme is from the Ayu Pack, the name of the text theme is Ayu Mirage. My favorite Icon pack is vscode-icons",
+            "key": "faq34"
+          }
+        ],
+
+        "key": "faq3"
       }
     ]
   },

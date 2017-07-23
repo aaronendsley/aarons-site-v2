@@ -20,7 +20,11 @@ class Content extends Component {
         />
         <div className="topSpacer">
           <Switch>
-            <Route exact path="/content" component={Main} />
+            <Route
+              exact
+              path="/content"
+              component={props => <Main faq={this.props.faq} />}
+            />
             <Route path="/content/projects" component={Github} />
             <Route path="/content/resources" component={Resources} />
             <Route path="/content/podcasts" component={Podcasts} />
