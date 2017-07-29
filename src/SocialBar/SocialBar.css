@@ -1,0 +1,22 @@
+.socialBarContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 350px;
+  left: 0;
+  z-index: 1;
+  border-top: solid #000 2px;
+  border-bottom: solid #000 2px;
+  border-right: solid #000 2px;
+  justify-content: space-around;
+}
+
+.socialBarChild {
+  flex: 1;
+  border: none;
+  margin: none;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 2em;
+  cursor: pointer;
+}

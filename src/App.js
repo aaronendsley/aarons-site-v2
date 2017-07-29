@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./home/home";
-import Content from "./Content/Content";
-import FourOhFour from "./FourOhFour/FourOhFour";
-import data from "./data.json";
-import "./App.css";
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './home/home';
+import Content from './Content/Content';
+import FourOhFour from './FourOhFour/FourOhFour';
+import SocialBar from './SocialBar/SocialBar';
+import data from './data.json';
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -26,25 +27,18 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+          <SocialBar />
           <Switch>
             <Route
               exact
               path={this.state.links[0].linkRoute}
               component={props =>
-                <Home
-                  titleText={this.state.title}
-                  aboutSection={this.state.about}
-                  scrollTop={this.state.scrollTop}
-                />}
+                <Home titleText={this.state.title} aboutSection={this.state.about} scrollTop={this.state.scrollTop} />}
             />
             <Route
               path="/content"
               component={props =>
-                <Content
-                  pageLinks={this.state.links}
-                  scrollTop={this.state.scrollTop}
-                  faq={this.state.faq}
-                />}
+                <Content pageLinks={this.state.links} scrollTop={this.state.scrollTop} faq={this.state.faq} />}
             />
             <Route component={FourOhFour} />
           </Switch>

@@ -3,12 +3,11 @@
   width: 100%;
   height: 70px;
   position: fixed;
-  z-index: 20;
+  z-index: 9999;
   top: 0;
   left: 0;
   border: 2px solid #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)),
-    url('../images/portBanner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../images/portBanner.jpg');
 }
 .navBarContainer a {
   color: #fff;
@@ -102,6 +101,7 @@
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 4;
   background: #000;
   color: #fff;
 }

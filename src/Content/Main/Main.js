@@ -1,5 +1,5 @@
-import React from "react";
-import "./Main.css";
+import React from 'react';
+import './Main.css';
 
 const Main = props => {
   const faq = props.faq;
@@ -18,6 +18,7 @@ const Main = props => {
               {item.paragraph}
             </p>
           )}
+          <hr />
         </div>
       )}
     </div>

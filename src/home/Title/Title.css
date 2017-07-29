@@ -7,6 +7,7 @@
   justify-content: center;
   width: 100%;
   height: 350px;
+  z-index: 1;
   background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../../images/portBanner.jpg');
 }
 .Title .innerTitleDiv {

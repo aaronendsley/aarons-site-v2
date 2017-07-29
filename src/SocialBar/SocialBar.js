@@ -25,6 +25,7 @@ class SocialBar extends Component {
   rTwitter() {
     return <FaTwitterSquare />;
   }
+
   findAndReturn(itemName) {
     let itemToReturn;
     switch (itemName) {
@@ -48,7 +49,6 @@ class SocialBar extends Component {
       <div className="socialBarContainer">
         {this.social.map(item => {
           let renIcon = this.findAndReturn(item.siteName);
-
           return (
             <a target="blank" href={item.siteLink} key={item.siteName}>
               <button className="socialBarChild">

@@ -1,8 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Title from "./Title/Title";
-import SocialBar from "../SocialBar/SocialBar";
-import "./home.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Title from './Title/Title';
+import './home.css';
 
 const Home = props => {
   const about = props.aboutSection.paragraphs;
@@ -20,7 +19,6 @@ const Home = props => {
         <Link to="/content" onClick={props.scrollTop}>
           <button type="button">Resources, Projects and More</button>
         </Link>
-        <SocialBar />
       </div>
     </div>
   );
