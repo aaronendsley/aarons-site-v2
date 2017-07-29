@@ -24,7 +24,7 @@
   ],
   "title": [
     { "title": "let person = {", "key": "t1" },
-    { "title": "'Name': 'Aaron Endsley'},", "key": "t2" },
+    { "title": "'Name': 'Aaron Endsley',", "key": "t2" },
     {
       "title": "'Description' : ['Follower of Christ','Husband','Dad', 'Web Dev']",
       "key": "t3"
