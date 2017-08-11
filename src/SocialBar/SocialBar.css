@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 350px;
+  top: 356px;
   left: 0;
-  z-index: 1;
+  z-index: 4;
   border-top: solid #000 2px;
   border-bottom: solid #000 2px;
   border-right: solid #000 2px;

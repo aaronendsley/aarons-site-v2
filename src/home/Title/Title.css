@@ -25,6 +25,7 @@
 .imgFloat {
   width: 100%;
   position: fixed;
+  z-index: 2;
   left: 0;
   top: 270px;
 }

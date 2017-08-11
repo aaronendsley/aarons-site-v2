@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './home/home';
 import Content from './Content/Content';
 import FourOhFour from './FourOhFour/FourOhFour';
@@ -25,7 +25,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <SocialBar />
           <Switch>
@@ -43,7 +43,7 @@ class App extends Component {
             <Route component={FourOhFour} />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
