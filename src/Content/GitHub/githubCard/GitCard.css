@@ -1,0 +1,26 @@
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.gitWrapper {
+  flex: 1;
+  flex-basis: 350px;
+  max-width: 349px;
+  min-width: 349px;
+  max-height: 310px;
+  min-height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  background-color: #fff;
+  border: solid 3px #000;
+  color: #000;
+  border-radius: 20px;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}

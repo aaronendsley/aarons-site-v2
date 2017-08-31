@@ -9,13 +9,21 @@ class Github extends Component {
     this.state = {
       data: null
     };
-    this.data;
   }
 
   componentDidMount() {
-    this.data = get('https://api.github.com/users/VeritasX/repos').then(response => {
+    get('https://api.github.com/users/VeritasX/repos').then(response => {
+      const finalData = response.data.filter(item => !item.fork).map(item => {
+        let newObj = {
+          name: item.name,
+          url: item.html_url,
+          language: item.language,
+          description: item.description
+        };
+        return newObj;
+      });
       this.setState({
-        data: response.data
+        data: finalData
       });
     });
   }
@@ -24,13 +32,13 @@ class Github extends Component {
     let hasData = <p>No data here</p>;
 
     if (Array.isArray(this.state.data)) {
-      hasData = <p>Lol there is data</p>;
+      hasData = this.state.data.map(item => <GitCard gitInfo={item} key={item.name} />);
     }
 
     return (
       <div>
         <h1>Projects: From Web Development to Graphic Design</h1>
-        {hasData}
+        <div className="gitHContainer">{hasData}</div>
       </div>
     );
   }
