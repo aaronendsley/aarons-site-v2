@@ -17,10 +17,21 @@ a:visited {
   flex-direction: column;
   background-color: #fff;
   border: solid 3px #000;
+  border-radius: 10px;
   color: #000;
-  border-radius: 20px;
   flex-wrap: nowrap;
   text-align: center;
   font-size: 0.9em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.projectName {
+  width: 100%;
+}
+.nameContainer {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
 }

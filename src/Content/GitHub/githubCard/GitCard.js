@@ -6,11 +6,11 @@ const GitCard = props => {
   return (
     <a href={gitInfo.url}>
       <div className="gitWrapper">
-        <div>
+        <div className="nameContainer">
           <div className="projectName">
             <h2>{gitInfo.name}</h2>
+            <hr />
           </div>
-          <hr />
         </div>
         <div>
           <div className="mainLanguage">
