@@ -9,9 +9,9 @@ const GitCard = props => {
         <div className="nameContainer">
           <div className="projectName">
             <h2>{gitInfo.name}</h2>
-            <hr />
           </div>
         </div>
+        <h2>{'---</>---'}</h2>
         <div>
           <div className="mainLanguage">
             <h3>{gitInfo.language}</h3>
