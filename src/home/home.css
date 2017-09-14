@@ -21,11 +21,10 @@
 .buttonGit button {
   border: none;
   flex: 1;
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   font-size: 1.3em;
-  border-radius: 20px;
-  border: solid 6px #000;
+  border-radius: 5px;
   font-weight: bold;
   font-family: 'Roboto Mono';
   letter-spacing: 3px;

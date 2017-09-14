@@ -38,7 +38,7 @@ class Github extends Component {
     return (
       <div>
         <h1>Projects: From Web Development to Graphic Design</h1>
-        <h2 />
+        <h2>Web Development Projects</h2>
         <div className="gitHContainer">{hasData}</div>
       </div>
     );
