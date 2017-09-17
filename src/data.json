@@ -14,16 +14,6 @@
       "linkName": "Projects",
       "linkRoute": "/content/projects",
       "key": "l3"
-    },
-    {
-      "linkName": "Dev Podcast List",
-      "linkRoute": "/content/podcasts",
-      "key": "l4"
-    },
-    {
-      "linkName": "Learning Resources",
-      "linkRoute": "/content/resources",
-      "key": "l5"
     }
   ],
   "title": [
@@ -47,15 +37,18 @@
   "About": {
     "paragraphs": [
       {
-        "paragraph": " Hello ! I am a Front End Web developer from Lawton Oklahoma! I love HTML, CSS , JavaScript and Typescript, and  React , and am looking forward to getting into Node. I am a Christian, husband, and a dad. I'm a huge Geek so I am into things like Doctor Who, Star Trek , Big Bang Theory, World of Warcraft, StarCraft...just about any and every game made by Blizzard Entertainment",
+        "paragraph":
+          " Hello ! I am a Front End Web developer from Lawton Oklahoma! I love HTML, CSS , JavaScript and Typescript, and  React , and am looking forward to getting into Node. I am a Christian, husband, and a dad. I'm a huge Geek so I am into things like Doctor Who, Star Trek , Big Bang Theory, World of Warcraft, StarCraft...just about any and every game made by Blizzard Entertainment",
         "key": "p1"
       },
       {
-        "paragraph": "I love programming. I learned how to build websites at the age of 12 and it has always been something that I have loved doing. I do NOT have a computer science degree. However, I do NOT see this as a disadvantage. My degree in Multimedia Design is what enabled my interest again in web development as an adult. It has also given me the opportunity to explore graphic design as well as web development and other areas. Because of this, I feel that I bring a unique perspective to most projects. My passion however has always been programming.",
+        "paragraph":
+          "I love programming. I learned how to build websites at the age of 12 and it has always been something that I have loved doing. I do NOT have a computer science degree. However, I do NOT see this as a disadvantage. My degree in Multimedia Design is what enabled my interest again in web development as an adult. It has also given me the opportunity to explore graphic design as well as web development and other areas. Because of this, I feel that I bring a unique perspective to most projects. My passion however has always been programming.",
         "key": "p2"
       },
       {
-        "paragraph": "I love learning and I love to test my skills that I have learned from various resourses, such as: Front End Masters, Wes Bos, Ultimate Angular, and Free Code Camp, Links to to the places listed above will be located in the more section ",
+        "paragraph":
+          "I love learning and I love to test my skills that I have learned from various resourses, such as: Front End Masters, Wes Bos, Ultimate Angular, and Free Code Camp, Click the button at the bottom of the page to learn more ",
         "key": "p3"
       },
       {
@@ -71,7 +64,8 @@
         "subtitle": "What will You find here..",
         "sections": [
           {
-            "paragraph": "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
+            "paragraph":
+              "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
             "key": "faq11"
           }
         ],
@@ -81,7 +75,8 @@
         "subtitle": "Seriously Though Tabs Vs Spaces",
         "sections": [
           {
-            "paragraph": "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
+            "paragraph":
+              "To answer the First Question Tabs over spaces, I just feel that its faster and more efficient...however some one invented this super cool thing called prettier so we dont have to argue about this anymore",
             "key": "faq21"
           }
         ],
@@ -91,15 +86,18 @@
         "subtitle": "What Editor do you use?",
         "sections": [
           {
-            "paragraph": "Ive literally tried just about every IDE/text editor out there. To name a few Webstorm, Sublime, Atom, Notepad++, Visual Studio, and even notepad( Im gonna pretend i didnt mention notepad )",
+            "paragraph":
+              "Ive literally tried just about every IDE/text editor out there. To name a few Webstorm, Sublime, Atom, Notepad++, Visual Studio, and even notepad( Im gonna pretend i didnt mention notepad )",
             "key": "faq31"
           },
           {
-            "paragraph": " When I tried VSCode, and I found the right editor! I Love the user interface, the simplicity, and the ease of use of all the features. It has a very extensive library of helpful add ons, which makes the editor extreamly configurable, as well as at times like an IDE when you need it to be. I especially enjoy the fact that I have the option to use Typescript or Javascript, with almost no set up out of the box.",
+            "paragraph":
+              " When I tried VSCode, and I found the right editor! I Love the user interface, the simplicity, and the ease of use of all the features. It has a very extensive library of helpful add ons, which makes the editor extreamly configurable, as well as at times like an IDE when you need it to be. I especially enjoy the fact that I have the option to use Typescript or Javascript, with almost no set up out of the box.",
             "key": "faq33"
           },
           {
-            "paragraph": "I use the following plugins, Auto Close Tag, Beautify, prettier, Bracket Pair Colorizer, EditorConfig for VS Code, ESLint, JSX, Open, TSLint.   My text theme is Cobalt2 by Wes Bos. My favorite Icon pack is vscode-icons",
+            "paragraph":
+              "I use the following plugins, Auto Close Tag, Beautify, prettier, Bracket Pair Colorizer, EditorConfig for VS Code, ESLint, JSX, Open, TSLint.   My text theme is Cobalt2 by Wes Bos. My favorite Icon pack is vscode-icons",
             "key": "faq34"
           }
         ],
@@ -121,6 +119,13 @@
         "siteName": "Github",
         "siteLink": "https://github.com/veritasx"
       }
+    ]
+  },
+
+  "Unused": {
+    "LINKS": [
+      { "linkName": "Dev Podcast List", "linkRoute": "/content/podcasts", "key": "l4" },
+      { "linkName": "Learning Resources", "linkRoute": "/content/resources", "key": "l5" }
     ]
   }
 }

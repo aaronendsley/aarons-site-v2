@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
-import NavBar from "../NavBar/NavBar";
-import Main from "./Main/Main";
-import Github from "./GitHub/Github";
-import Resources from "./Resources/Resources";
-import Podcasts from "./Podcasts/Podcasts";
-import "./Content.css";
+import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import NavBar from '../NavBar/NavBar';
+import Main from './Main/Main';
+import Github from './GitHub/Github';
+//import Resources from './Resources/Resources';
+//import Podcasts from './Podcasts/Podcasts';
+import './Content.css';
 
 class Content extends Component {
   constructor(props) {
@@ -14,20 +14,13 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <NavBar
-          pageLinks={this.props.pageLinks}
-          scrollTop={this.props.scrollTop}
-        />
+        <NavBar pageLinks={this.props.pageLinks} scrollTop={this.props.scrollTop} />
         <div className="topSpacer">
           <Switch>
-            <Route
-              exact
-              path="/content"
-              component={props => <Main faq={this.props.faq} />}
-            />
+            <Route exact path="/content" component={props => <Main faq={this.props.faq} />} />
             <Route path="/content/projects" component={Github} />
-            <Route path="/content/resources" component={Resources} />
-            <Route path="/content/podcasts" component={Podcasts} />
+            {/*<Route path="/content/resources" component={Resources} />
+    <Route path="/content/podcasts" component={Podcasts} />*/}
           </Switch>
         </div>
       </div>
