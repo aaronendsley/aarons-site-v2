@@ -2,7 +2,7 @@
   "name": "aarons-site-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.aaronendsley.codes",
+  "homepage": "https://veritasx.github.io/aarons-site-v2",
   "dependencies": {
     "axios": "^0.16.2",
     "react": "^15.6.1",
