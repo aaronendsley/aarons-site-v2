@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
-          <SocialBar />
+          
           <Switch>
             <Route
               exact
@@ -42,8 +42,13 @@ class App extends Component {
             />
             <Route component={FourOhFour} />
           </Switch>
+            <div  className="socialBarParent">
+                <SocialBar/>
+            </div>
         </div>
+       
       </HashRouter>
+      
     );
   }
 }

@@ -57,7 +57,7 @@ class NavBar extends Component {
             <header>
               <div className="brand">
                 <h1>
-                  {'<Aaron Endsley/>'}
+                  {'Aaron Endsley'}
                 </h1>
                 <div className="imageFloat2">
                   <div className="imgContainer2">

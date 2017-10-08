@@ -7,11 +7,7 @@ const Title = props => {
   return (
     <div className="Title">
       <div className="innerTitleDiv">
-        {titleText.map(item =>
-          <h1 key={item.key}>
-            {item.title}
-          </h1>
-        )}
+       <h1>{titleText}</h1>
       </div>
       <div className="imgFloat">
         <div className="imgContainer">

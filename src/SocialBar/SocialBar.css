@@ -1,14 +1,12 @@
+
 .socialBarContainer {
   display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 356px;
-  left: 0;
-  z-index: 4;
-  border-top: solid #000 2px;
-  border-bottom: solid #000 2px;
-  border-right: solid #000 2px;
+  flex-direction: row;
+  max-width: 300px;
+  margin-right:auto;
+  margin-left:auto;
   justify-content: space-around;
+  position: relative;
 }
 
 .socialBarChild {

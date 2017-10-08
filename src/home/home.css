@@ -4,7 +4,7 @@
   display: block;
 }
 .content {
-  margin-top: 400px;
+  margin-top: 220px;
   margin-right: auto;
   margin-left: auto;
   width: 60%;
@@ -17,6 +17,7 @@
   height: 75px;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .buttonGit button {
   border: none;
@@ -31,5 +32,6 @@
   cursor: pointer;
   padding: 20px;
   position: relative;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }

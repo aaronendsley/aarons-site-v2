@@ -58,6 +58,7 @@ class SocialBar extends Component {
           );
         })}
       </div>
+      
     );
   }
 }
