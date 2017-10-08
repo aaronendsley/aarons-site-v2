@@ -1,3 +1,4 @@
+
 .navBarContainer {
   display: block;
   width: 100%;
@@ -26,6 +27,7 @@
   align-self: flex-start;
   padding-top: 10px;
   font-size: 1em;
+  padding-left:0; /*Zeros out the global margin*/
 }
 
 .navBarContainer header .brand {

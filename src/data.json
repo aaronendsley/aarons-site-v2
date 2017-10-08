@@ -41,21 +41,21 @@
     ]
   },
   "Faq": {
-    "title": "Tabs vs Spaces....",
+    "title": "Tabs vs Spaces",
     "paragraphs": [
       {
-        "subtitle": "What will You find here..",
+        "subtitle": "My thoughts and Preferences on Coding",
         "sections": [
           {
             "paragraph":
-              "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. On the other pages you will find things like my projects I have worked on, my favorite podcasts, where and who i learn from etcetra.",
+              "Here you will find little facts about my set up, what code editor I use, spaces or tabs that sort of thing. When your finished here check out my projects section of the site, You can find it in the menu under projects ",
             "key": "faq11"
           }
         ],
         "key": "faq1"
       },
       {
-        "subtitle": "Seriously Though Tabs Vs Spaces",
+        "subtitle": "Tabs Vs Spaces",
         "sections": [
           {
             "paragraph":

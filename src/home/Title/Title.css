@@ -21,6 +21,7 @@
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
   color: #fff;
+  padding-left:0; /* Zeros out the global Margin */
 }
 .imgFloat {
   width: 100%;
