@@ -4,7 +4,7 @@ import "./FourOhFour.css";
 const FourOhFour = () => {
   return (
     <div className="FourOhFour topSpacer">
-      <h1>MMMHMMM you had to manually type the URL didnt you</h1>
+      <h1>This is not the page you were looking for</h1>
     </div>
   );
 };
