@@ -1,4 +1,3 @@
-
 .navBarContainer {
   display: block;
   width: 100%;
@@ -8,7 +7,7 @@
   top: 0;
   left: 0;
   border: 2px solid #000;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) rgba(0, 0, 0, 0.80)), url('../images/portBanner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url('../images/portBanner.jpg');
 }
 .navBarContainer a {
   color: #fff;
@@ -27,7 +26,7 @@
   align-self: flex-start;
   padding-top: 10px;
   font-size: 1em;
-  padding-left:0; /*Zeros out the global margin*/
+  padding-left: 0; /*Zeros out the global margin*/
 }
 
 .navBarContainer header .brand {
@@ -67,11 +66,10 @@
 
 .imgContainer2 {
   width: 80px;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .imgContainer2 img {
   width: 100%;
@@ -81,7 +79,7 @@
 
 .menuButton {
   color: #fff;
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.1);
   border: none;
   width: 50px;
   height: 50px;

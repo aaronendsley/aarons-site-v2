@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './SocialBar.css';
-import FaTwitterSquare from 'react-icons/lib/fa/twitter-square';
-import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
-import FaGithubSquare from 'react-icons/lib/fa/github-square';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 import { SocialMediaLinks } from '../data.json';
 
 class SocialBar extends Component {
@@ -19,7 +19,7 @@ class SocialBar extends Component {
     return <FaGithubSquare />;
   }
   rLinkedIn() {
-    return <FaLinkedinSquare />;
+    return <FaLinkedin />;
   }
 
   rTwitter() {
@@ -51,14 +51,11 @@ class SocialBar extends Component {
           let renIcon = this.findAndReturn(item.siteName);
           return (
             <a target="blank" href={item.siteLink} key={item.siteName}>
-              <button className="socialBarChild">
-                {renIcon()}
-              </button>
+              <button className="socialBarChild">{renIcon()}</button>
             </a>
           );
         })}
       </div>
-      
     );
   }
 }
